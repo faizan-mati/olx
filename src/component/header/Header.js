@@ -30,7 +30,7 @@ const Header = () => {
                                 <div className='afterRegister'> <Link className='Link' to={'/register'}>
                                     RIGISTER</Link> </div>
                                 <div className='afterLogin'><Link className='Link' to={'/login'}>
-                                    LOGIN</Link> </div>
+                                    GIN</Link> </div>
                             </div>
                         </Navbar.Brand>
                         <Navbar.Toggle className='threeLine' aria-controls="basic-navbar-nav" />
