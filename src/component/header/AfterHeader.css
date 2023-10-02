@@ -1,0 +1,492 @@
+.profile {
+  margin-left: 370px;
+  position: relative;
+  top: 10px;
+}
+
+.beautiful-form {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.beautiful-form div {
+  margin-bottom: 20px;
+}
+
+/* 
+label {
+  font-weight: bold;
+  margin-left: -15%;
+  margin-right: 70%;
+}
+
+
+.textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+input[type="file"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  cursor: pointer;
+} */
+
+#postLabel {
+  margin-left: -55px;
+}
+
+.registerLabel {
+  margin-right: 200px;
+  font-weight: bold;
+}
+
+.registerBtn4 {
+  margin-top: 30px;
+  font-weight: 900;
+  border-radius: 50px;
+  width: 95%;
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 16px;
+  color: white;
+  background-color: #1a1818;
+  transition: background-color 0.3s;
+}
+
+.registerBtn4:hover {
+  background-color: #515050;
+}
+
+.registerBtn4::before {
+  content: "POST";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #515050;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: transform 0.3s;
+  transform: translateX(-100%);
+}
+
+.registerBtn4:hover::before {
+  transform: translateX(0);
+}
+
+.profile-icon {
+  position: relative;
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #f0f0f0;
+  overflow: hidden;
+}
+
+.profile-dropdown {
+  /* display: flex; */
+  background-color: white;
+  /* justify-content: center; */
+  align-items: center;
+  padding-top: 40px;
+  padding-bottom: 5px;
+  position: fixed;
+  top: 115px;
+  left: 830px;
+  width: 23%;
+  height: auto;
+  z-index: 100;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.4);
+  border-radius: 5px;
+}
+
+.profileImg {
+  width: 60px;
+  height: 60px;
+  margin-top: -20px;
+  margin-left: 15px;
+}
+
+.circle-button {
+  /* display: inline-block; */
+  width: 100px;
+  height: 40px;
+  border-radius: 100px;
+  border: 4px solid;
+  /* margin-top: 6px; */
+  /* margin-left: -80px; */
+  margin-right: -70px;
+  margin-top: 5px;
+  font-weight: bold;
+  /* border-image: linear-gradient(to right, red, blue, green); */
+  /* border-image-slice: 1; */
+  /* background-color: transparent; */
+  /* cursor: pointer; */
+  transition: transform 0.3s, border 0.3s;
+}
+
+.circle-button:hover {
+  transform: scale(1.1);
+}
+
+.add-button {
+  background-color: transparent;
+  color: rgb(0, 0, 0);
+  border: none;
+  padding: 10px 15px;
+  /* margin: -8px 0 0 0; */
+  /* border-radius: 5px; */
+  width: 100%;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  font-weight: 600;
+}
+
+.add-icon {
+  margin-right: 20px;
+  font-size: 18px;
+}
+
+.add-button:hover {
+  background-color: #94c5f8;
+}
+
+
+
+@media screen and (min-width: 1020px) and (max-width: 1199px) {
+  .profile {
+    margin-left: 170px;
+    /* margin-right: 20px; */
+    position: relative;
+    top: 10px;
+    left: 40px;
+  }
+
+  .circle-button {
+    margin-left: 20px;
+  }
+
+  .profile-dropdown {
+    position: fixed;
+    top: 115px;
+    left: 720px;
+    width: 25%;
+  }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1019px) {
+  .profile {
+    margin-left: 110px;
+    /* margin-right: 20px; */
+    position: relative;
+    top: 10px;
+    left: 20px;
+  }
+
+  .circle-button {
+    margin-left: 10px;
+  }
+
+  .profile-dropdown {
+    position: fixed;
+    top: 115px;
+    left: 650px;
+    width: 25%;
+  }
+
+  .searchBarLarge {
+    width: 150%;
+  }
+
+  .search {
+    margin-left: -120px;
+  }
+}
+
+@media screen and (min-width: 837px) and (max-width: 991px) {
+  #hide {
+    display: none;
+  }
+
+  .afterIcon {
+    display: inline;
+  }
+
+  .afterProfile {
+    position: absolute;
+    /* bottom: 25px; */
+    left: 60%;
+    bottom: 10px;
+  }
+
+  .afterProfileBtn {
+    position: absolute;
+    /* bottom: 25px; */
+    left: 75%;
+    bottom: 10px;
+  }
+
+  .profile-dropdown {
+    position: fixed;
+    top: 55px;
+    left: 410px;
+    width: 35%;
+  }
+
+  /* #postLabel{
+    margin-left: -10px;
+   }
+  
+   .registerLabel {
+    margin-right: 190px;
+    font-weight: bold;
+} */
+
+}
+
+@media screen and (min-width: 629px) and (max-width: 836px) {
+  #hide {
+    display: none;
+  }
+
+  .afterIcon {
+    display: inline;
+  }
+
+  .afterProfile {
+    position: absolute;
+    /* bottom: 25px; */
+    left: 60%;
+    bottom: 10px;
+  }
+
+  .afterProfileBtn {
+    position: absolute;
+    /* bottom: 25px; */
+    left: 80%;
+    bottom: 10px;
+  }
+
+  .profile-dropdown {
+    position: fixed;
+    top: 55px;
+    left: 290px;
+    width: 48%;
+  }
+}
+
+@media screen and (min-width: 617px) and (max-width: 628px) {
+  #hide {
+    display: none;
+  }
+
+  .afterIcon {
+    display: inline;
+  }
+
+  .afterProfile {
+    position: absolute;
+    /* bottom: 25px; */
+    left: 60%;
+    bottom: 10px;
+  }
+
+  .afterProfileBtn {
+    position: absolute;
+    /* bottom: 25px; */
+    left: 80%;
+    bottom: 10px;
+  }
+
+  .profile-dropdown {
+    position: fixed;
+    top: 55px;
+    left: 290px;
+    width: 48%;
+  }
+}
+
+@media screen and (min-width: 487px) and (max-width: 616px) {
+  #hide {
+    display: none;
+  }
+
+  .afterIcon {
+    display: inline;
+  }
+
+  .afterHide {
+    display: none;
+  }
+
+  #afterMoter {
+    display: none;
+  }
+
+  .afterProfile {
+    position: absolute;
+    /* bottom: 25px; */
+    left: 50%;
+    bottom: 10px;
+  }
+
+  .afterProfileBtn {
+    position: absolute;
+    /* bottom: 25px; */
+    left: 75%;
+    bottom: 10px;
+  }
+
+  .profile-dropdown {
+    position: fixed;
+    top: 55px;
+    left: 130px;
+    width: 58%;
+  }
+
+  /* .gmail-option {
+    padding: 10px;
+    background-color: white;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    color: rgb(32, 54, 37);
+} */
+  .center-container {
+    margin-left: -50px;
+  }
+
+}
+
+@media screen and (min-width: 395px) and (max-width: 486px) {
+  #hide {
+    display: none;
+  }
+
+  .afterIcon {
+    display: inline;
+  }
+
+  .afterHide {
+    display: none;
+  }
+
+  #afterMoter {
+    display: none;
+  }
+
+  .afterProfile {
+    position: absolute;
+    /* bottom: 25px; */
+    left: 40%;
+    bottom: 10px;
+  }
+
+  .afterProfileBtn {
+    position: absolute;
+    /* bottom: 25px; */
+    left: 70%;
+    bottom: 10px;
+  }
+
+  .profile-dropdown {
+    position: fixed;
+    top: 55px;
+    left: 80px;
+    width: 58%;
+  }
+
+  .center-container {
+    margin-left: -70px;
+  }
+}
+
+@media screen and (min-width: 245px) and (max-width: 394px) {
+  #hide {
+    display: none;
+  }
+
+  .afterIcon {
+    display: inline;
+  }
+
+  .afterHide {
+    display: none;
+  }
+
+  #afterMoter {
+    display: none;
+  }
+
+  .afterProfile {
+    position: absolute;
+    /* bottom: 25px; */
+    left: 32%;
+    bottom: 10px;
+  }
+
+  .afterProfileBtn {
+    position: absolute;
+    /* bottom: 25px; */
+    left: 70%;
+    bottom: 10px;
+  }
+
+  .profile-dropdown {
+    position: fixed;
+    top: 55px;
+    left: 2px;
+    width: 65%;
+  }
+
+  .center-container {
+    margin-left: -90px;
+  }
+
+  .afterNavBar {
+    width: 107%;
+  }
+}
+
+@media screen and (min-width: 1600px) and (max-width: 1799px) {
+  #navBarAll {
+    margin-left: 5%;
+  }
+}
+
+@media screen and (min-width: 1800px) and (max-width: 2799px) {
+  #navBarAll {
+    margin-left: 10%;
+  }
+}
+
+@media screen and (min-width: 1600px) and (max-width: 1999px) {
+  .profile-dropdown {
+    position: fixed;
+    top: 10%;
+    left: 60%;
+    width: 20%;
+  }
+}
+
+@media screen and (min-width: 2000px) and (max-width: 2999px) {
+  .profile-dropdown {
+    position: fixed;
+    top: 10%;
+    left: 60%;
+    width: 15%;
+  }
+}

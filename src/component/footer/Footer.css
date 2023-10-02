@@ -1,0 +1,234 @@
+.footerMain {
+    display: flex;
+    background-color: rgba(248, 250, 249, 255);
+    margin-top: 30px;
+    margin-left: -250px;
+}
+
+.footerPrah {
+    font-size: 18px;
+    font-weight: 400;
+
+    /* margin-right: 15px; */
+}
+
+.separator {
+    border: none;
+    border-left: 1px solid #000000;
+    height: 150px;
+    /* margin: 25px 20px;  */
+
+}
+
+.footerApp {
+    margin: 35px 0 20px 10px;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.footerIcone {
+    font-size: 19px;
+    position: relative;
+    top: 13px;
+    margin-right: 5px;
+}
+
+.btnApp {
+    font-size: 12px;
+    font-weight: 600;
+    border-radius: 5px;
+    background-color: #000000;
+    color: aliceblue;
+    border: none;
+    transition: background-color 0.3s, transform 0.3s;
+    margin-left: 5px;
+    padding-bottom: 5px;
+    width: 130px;
+}
+
+.btnApp:hover {
+    background-color: #0058b7;
+    transform: scale(1.05);
+}
+
+.footerLink {
+    font-size: 15px;
+    color: #000000;
+    margin-left: 0px;
+
+}
+
+.footerHead {
+    margin: 30px -10px;
+}
+
+.footerMain2 {
+    display: flex;
+}
+
+.footerHead2 {
+    margin: 40px 0 20px 0;
+}
+
+.myFooter {
+    margin-top: 30px;
+    height: 40px;
+    width: 100%;
+    background-color: rgba(0, 47, 52, 255);
+    color: aliceblue;
+}
+
+.btnApp1 {
+    width: 100px;
+}
+
+.footerPara {
+    margin-top: 20px;
+    margin-left: 60px;
+}
+
+.lineMiddle {
+    margin-top: -4px;
+}
+
+.footerBtn {
+    margin-left: 40px;
+}
+
+.footerbtn2 {
+    margin-left: -40px;
+}
+
+.footerbtn3 {
+    margin-left: -20px;
+}
+
+@media screen and (min-width: 1121px) and (max-width: 1170px) {
+    .footerBtn {
+        margin-left: 40px;
+    }
+
+    .footerbtn2 {
+        margin-left: -40px;
+    }
+
+    .footerPara {
+        margin-top: 10px;
+        margin-left: 70px;
+    }
+
+    .hide {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 991px) and (max-width: 1120px) {
+    .footerBtn {
+        margin-left: -10px;
+    }
+
+    .footerbtn2 {
+        margin-left: -100px;
+    }
+
+    .footerPara {
+        margin-top: 10px;
+        margin-left: 70px;
+    }
+
+    .footerOlx {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 191px) and (max-width: 991px) {
+    .footerOlx {
+        display: block;
+    }
+}
+
+@media screen and (min-width: 656px) and (max-width: 990px) {
+    .footerMain {
+        margin-left: -160px;
+    }
+
+    .footerPara {
+        margin-top: 20px;
+        margin-left: 70px;
+    }
+
+    .lineMiddle {
+        margin-top: 4px;
+    }
+
+    .footerMain2 {
+        margin-left: 50px;
+    }
+
+}
+
+@media screen and (min-width: 448px) and (max-width: 655px) {
+    .footerMain {
+        margin-left: 0px;
+    }
+
+    .footerImg {
+        width: 280px;
+        height: auto;
+    }
+
+    .footerPara {
+        margin-top: 20px;
+        margin-left: 70px;
+    }
+
+    .lineMiddle {
+        margin-top: 4px;
+    }
+
+    .hide {
+        display: none;
+    }
+
+    .footerMain2 {
+        margin-left: 50px;
+    }
+}
+
+@media screen and (min-width: 248px) and (max-width: 447px) {
+    .footerMain {
+        margin-left: 0px;
+    }
+
+    .footerPara {
+        margin-top: 20px;
+        margin-left: 70px;
+    }
+
+    .lineMiddle {
+        margin-top: 4px;
+    }
+
+    .hide {
+        display: none;
+    }
+
+    .footerMain2 {
+        margin-left: 50px;
+    }
+
+    .footerImg {
+        width: 300px;
+        height: auto;
+    }
+
+    .btnApp {
+        margin-left: 2px;
+    }
+
+}
+@media screen and (min-width: 1400px) and (max-width: 2747px) {
+   .footerAll{
+margin-left: 5%;
+   }
+}

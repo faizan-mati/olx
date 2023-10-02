@@ -1,0 +1,118 @@
+.container-card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-left: 10%;
+  /* margin-left: 13%; */
+  /* width: 90%; */
+}
+
+.card {
+  width: calc(20% - 16px);
+  /* 25% width for each card with 20px margin between cards */
+  margin: 10px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.apiImage {
+  margin-left: -19px;
+  width: 120%;
+  height: 250px;
+  margin-top: -19px;
+  border-radius: 8px;
+}
+
+.card-body {
+  margin-left: -30px;
+}
+
+.card-text {
+  font-weight: 500;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.1);
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  .container-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 10%;
+  }
+  
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .container-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 17%;
+  }
+  
+}
+@media screen and (min-width: 700px) and (max-width: 767px) {
+  .container-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 17%;
+  }
+  
+}
+@media screen and (min-width: 621px) and (max-width: 699px) {
+  .container-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 15%;
+  }
+  
+}
+
+@media screen and (min-width: 552px) and (max-width: 620px) {
+  .container-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 10%;
+  }
+  
+}
+
+@media screen and (min-width: 252px) and (max-width: 551px) {
+  .container-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 5%;
+  }
+  
+}
+
+@media screen and (min-width: 400px) and (max-width: 519px) {
+  .container-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 23%;
+  }
+  
+}
+@media screen and (min-width: 300px) and (max-width: 399px) {
+  .container-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 14%;
+  }
+  
+}

@@ -1,0 +1,70 @@
+
+  .detailImg {
+    width: 50%;
+    margin-top: 3%;
+    /* display: flex; */
+    align-items: center;
+    justify-content: center;
+    height: 450px;
+    border-radius: 10px;
+    margin-left: 25%;
+  }
+  
+  /* Detail body styling */
+  #detailBody {
+    padding: 20px;
+    width: 50%;
+    margin-left: 25%;
+    background-color: #f4f4f4;
+    border-radius: 10px;
+    height: auto;
+  }
+  
+  /* Name styling */
+  .detailName {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .detailName span {
+    color: #333;
+  }
+  
+  /* Price styling */
+  .detailPrice {
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 20px;
+  }
+  
+  .detailPrice span {
+    color: #e91e63;
+    font-weight: bold;
+  }
+  
+  /* Description styling */
+  .detailDescription {
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 20px;
+  }
+@media screen and (min-width: 550px) and (max-width: 800px) {
+    #detailBody {
+        margin-left: 5%;
+        width: 90%;
+    }
+    .detailImg {
+        margin-left: 5%;
+        width: 90%;
+    }
+}
+@media screen and (min-width: 250px) and (max-width: 549px) {
+    #detailBody {
+        margin-left: 5%;
+        width: 90%;
+    }
+    .detailImg {
+        margin-left: 5%;
+        width: 90%;
+    }
+}
